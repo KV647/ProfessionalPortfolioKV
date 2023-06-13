@@ -1,0 +1,92 @@
+.header {
+    background-color: rgb(10, 155, 204);
+    
+}
+
+.navlist {
+    color: coral;
+}
+
+a:link {
+    color: coral;
+}
+
+.body {
+    background-color: lightblue;
+}
+
+
+.allbig {
+    display:flex;
+    justify-content: center;
+}
+
+.big {
+    display: flex;
+    background-color: rgb(10, 155, 204);
+    width: 60%;
+    height: 500px;
+    margin: 10px;
+    font-size: 150%;
+    align-items:center;
+    justify-content:flex-start;
+    flex-direction:column;
+}
+
+.pc {
+    display: flex;
+    height: 280px;
+    align-items:center;
+    justify-content:center;
+    max-height: 99%;
+    max-width: 99%;
+}
+
+.allsmall {
+    display:flex;
+    flex-direction: row;
+    flex: 1 0 0;
+    padding: 10px;
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.small,
+.small2,
+.small3 {
+    display: flex;
+    background-color: rgb(10, 155, 204);
+    width: 33%;
+    height: 500px;
+    margin: 10px;
+    font-size: 150%;
+    align-items:center;
+    justify-content:flex-start;
+    flex-direction:column;
+    padding: 10px;
+}
+
+.pc:hover,
+.controller:hover,
+.calc:hover,
+.app:hover {
+    filter: brightness(25%);
+}
+
+.controller,
+.calc,
+.app {
+    display: flex;
+    height: 350px;
+    align-items:center;
+    justify-content:center;
+    max-height: 99%;
+    max-width: 99%;
+}
+
+.footer {
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+}
